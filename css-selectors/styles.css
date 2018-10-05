@@ -7,6 +7,10 @@
     font-style: normal;
 }
 
+#button-2 {
+    background-color: #D55C5F;    /* Red */
+}
+
 .button {
     color: #FFF;
     background-color: #5995DA;    /* Blue */
@@ -32,15 +36,14 @@
   background-color: #5995DA;  /* Blue */
 }
 
-.call-to-action {
+/* .call-to-action {
     font-style: italic;
     background-color: #EEB75A;
-}
+} */
 
 .call-to-action:link,
 .call-to-action:visited {
-  font-style: italic;
-  background-color: #EEB75A;     /* Yellow */
+  background-color: #D55C5F;    /* Red */
 }
 
 .call-to-action:hover,
@@ -83,6 +86,16 @@ a:visited:hover {
 a:visited:active {
     color: red;
 }
+
+#button-2 {
+    color: #5D6063;
+}
+
+p:last-of-type {
+    margin-bottom: 100px;
+}
+
+#
 
 /* Try to avoid this */
 .article h2 .subheading em {
